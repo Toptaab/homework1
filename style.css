@@ -1,0 +1,47 @@
+        /* Main Navigator  */
+        nav > * {
+            border-right: 1px solid blue;
+            padding-right: 5px;
+        }
+        /* Education Site */
+        .Education-table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            min-width: 100%;
+        }
+        .Education-table * {
+            border: 1px solid black;
+        }
+        /* work Experience Site */
+        .work-table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            min-width: 100%;
+        }
+        .work-table * {
+            border: 1px solid black;
+        }
+        .work-table th {
+            background-color: burlywood;
+        }
+        /* Contact Me site */
+        h1{
+            text-align: center;
+        }
+        .contact-form {
+            /* background-color: aqua; */
+            max-width: 400px;
+            margin: auto;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 10px;
+            display: flex;
+            gap: 8px;
+            flex-direction: column;
+        }
+        .contact-form * {
+            max-width: 90%;
+        }
+        /* input[type=submit] {
+            width: 50px;
+        } */

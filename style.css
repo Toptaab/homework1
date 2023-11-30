@@ -1,13 +1,53 @@
+        /* Universal  */
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         /* Main Navigator  */
+        nav {
+            display: flex;
+            justify-content: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
         nav > * {
             border-right: 1px solid blue;
             padding-right: 5px;
+            padding-left: 5px;
         }
+        /* Home site */
+        .profile-pic {
+            box-sizing: border-box;
+            display: block;
+        }
+
         /* Education Site */
+        .education {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .workex {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            max-width: 300px;
+        }
         .Education-table {
             border: 1px solid black;
             border-collapse: collapse;
-            min-width: 100%;
+            min-width: 700px;
         }
         .Education-table * {
             border: 1px solid black;
@@ -16,7 +56,7 @@
         .work-table {
             border: 1px solid black;
             border-collapse: collapse;
-            min-width: 100%;
+            min-width: 700px;
         }
         .work-table * {
             border: 1px solid black;
@@ -24,13 +64,13 @@
         .work-table th {
             background-color: burlywood;
         }
+        
         /* Contact Me site */
-        h1{
-            text-align: center;
+        .contactme-header {
+            padding: 10px;
         }
         .contact-form {
-            /* background-color: aqua; */
-            max-width: 400px;
+            width: 400px;
             margin: auto;
             border: 1px solid black;
             border-radius: 5px;
@@ -40,8 +80,9 @@
             flex-direction: column;
         }
         .contact-form * {
-            max-width: 90%;
+            max-width: 350px;
         }
-        /* input[type=submit] {
-            width: 50px;
-        } */
+        textarea {
+            resize: none;
+        }
+ 
